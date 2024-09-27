@@ -9,10 +9,8 @@ Ward在所有流行的操作系统上都运行良好，因为它使用[OSHI](htt
 
 **所有功能都在以下平台上进行了测试：**“Windows”Linux`
 
-<p align = "center">
-    <img src = "images/preview.png" alt = "Preview Image" />
-    <h6 align = "center">Preview Image</h6>
-</p>
+![image](https://github.com/user-attachments/assets/fa63cbf2-0639-4277-bacb-f3e61460773b)
+
 
 ---
 
