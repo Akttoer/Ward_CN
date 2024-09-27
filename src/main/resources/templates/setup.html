@@ -39,7 +39,7 @@
         <div class = "container setup">
             <div class = "setup-div">
                 <div class = "logo">WARD</div>
-                <div class = "logo-description">SERVER DASHBOARD</div>
+                <div class = "logo-description">服务器仪表盘</div>
                 <div class = "clouds">
                     <img class = "first" th:src = @{/img/logo/clouds/left.png} />
                     <img class = "second" th:src = @{/img/logo/clouds/right.png} />
@@ -51,26 +51,26 @@
                         <div class = "second"></div>
                         <div class = "third"></div>
                     </div>
-                    <div class = "label-main-settings">MAIN SETTINGS</div>
+                    <div class = "label-main-settings">主要设置</div>
                     <div class = "main-settings">
                         <input id = "server-name" type = "text" maxlength = "10" placeholder = "Server Name" />
                         <div class = "main-settings-underline first"></div>
                     </div>
-                    <div class = "label-additional-settings">ADDITIONAL SETTINGS</div>
+                    <div class = "label-additional-settings">其他设置</div>
                     <div class = "additional-settings">
                         <div class = "button-squares-grid">
                             <div id = "light-theme-square" class = "first"></div>
                             <div id = "dark-theme-square" class = "second"></div>
                         </div>
                         <div class = "theme-buttons">
-                            <input id = "light-theme" class = "first" type = "button" value = "LIGHT THEME" />
-                            <input id = "dark-theme" class = "second" type = "button" value = "DARK THEME" />
+                            <input id = "light-theme" class = "first" type = "button" value = "浅色主题" />
+                            <input id = "dark-theme" class = "second" type = "button" value = "深色主题" />
                         </div>
-                        <label class = "label-additional-settings"><span>ENABLE BACKGROUND FOG</span><input id = "fog-toggle" class = "fog-toggle" type = "checkbox" name = "enableFog" checked></label>
-                        <label class = "label-additional-settings" title="Disable Fog to select"><span>SELECT BACKGROUND COLOR</span><input id = "color-selector" class = "color-selector" type = "color" value="#e5e5e5" disabled></label>
-                        <input id = "port" class = "port" type = "text" maxlength = "5" placeholder = "Application Port" />
+                        <label class = "label-additional-settings"><span>启动背景雾</span><input id = "fog-toggle" class = "fog-toggle" type = "checkbox" name = "enableFog" checked></label>
+                        <label class = "label-additional-settings" title="Disable Fog to select"><span>选择背景颜色</span><input id = "color-selector" class = "color-selector" type = "color" value="#e5e5e5" disabled></label>
+                        <input id = "port" class = "port" type = "text" maxlength = "5" placeholder = "Ward运行端口" />
                     </div>
-                    <input id = "submit" class = "submit" type = "button" value = "LAUNCH" />
+                    <input id = "submit" class = "submit" type = "button" value = "启动" />
                 </div>
             </div>
         </div>
